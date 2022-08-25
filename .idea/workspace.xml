@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df673d4-624d-4ca7-aea3-14144319c759" name="Default Changelist" comment="first">
+    <list default="true" id="0df673d4-624d-4ca7-aea3-14144319c759" name="Default Changelist" comment="three">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/itchen_tianqituisong_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/itchen_tianqituisong_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/itchen/TianqituisongApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itchen/TianqituisongApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itchen/controller/Pusher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itchen/controller/Pusher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itchen/TianqituisongApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itchen/TianqituisongApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/itchen/controller/Pusher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/itchen/controller/Pusher.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +44,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -47,14 +56,16 @@
       <recent name="com.itchen" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.TianqituisongApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TianqituisongApplicationTests.goodMorning">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,7 +124,8 @@
       <workItem from="1661347568739" duration="81000" />
       <workItem from="1661347844038" duration="4272000" />
       <workItem from="1661352158093" duration="2248000" />
-      <workItem from="1661386282776" duration="5140000" />
+      <workItem from="1661386282776" duration="7881000" />
+      <workItem from="1661413058980" duration="4055000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1661350153619</created>
@@ -136,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661350699494</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="three">
+      <created>1661392067076</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1661392067076</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="three" />
+    <option name="LAST_COMMIT_MESSAGE" value="three" />
   </component>
 </project>

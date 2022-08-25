@@ -12,6 +12,7 @@
     <artifactId>itchen_tianqituisong</artifactId>
     <version>0.0.1</version>
     <name>itchen_tianqituisong</name>
+    <packaging>war</packaging>
     <description>itchen_tianqituisong</description>
     <properties>
         <java.version>1.8</java.version>

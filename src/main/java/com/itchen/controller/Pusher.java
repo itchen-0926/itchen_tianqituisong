@@ -43,6 +43,7 @@ public class Pusher {
         templateMessage.addData(new WxMpTemplateData("lianai", JiNianRiUtils.getLianAi()+"","#FF1493"));
         templateMessage.addData(new WxMpTemplateData("shengri",JiNianRiUtils.getBirthday_Jo()+"","#FFA500"));
 
+
         String beizhu = "襄阳";
         if(JiNianRiUtils.getLianAi() % 365 == 0){
             beizhu = "今天是爱你" + (JiNianRiUtils.getLianAi() / 365) + "周年纪念日！";
@@ -55,6 +56,7 @@ public class Pusher {
         try {
             System.out.println(templateMessage.toJson());
             System.out.println(wxMpService.getTemplateMsgService().sendTemplateMsg(templateMessage));
+
         } catch (Exception e) {
             System.out.println("推送失败：" + e.getMessage());
             e.printStackTrace();

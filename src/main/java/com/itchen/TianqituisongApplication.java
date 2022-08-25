@@ -13,8 +13,8 @@ public class TianqituisongApplication {
     public static void main(String[] args) {
         SpringApplication.run(TianqituisongApplication.class, args);
     }
-    // 定时 早7点推送  0秒 0分 7时
-    @Scheduled(cron = "0 0 12 * * ?")
+    // 定时 早7点推送  0秒 0分 5时
+    @Scheduled(cron = "0 0 5 * * ?")
     public void goodMorning(){
         Pusher.push();
     }

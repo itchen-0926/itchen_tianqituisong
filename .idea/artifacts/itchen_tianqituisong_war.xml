@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="itchen_tianqituisong:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>itchen_tianqituisong</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="itchen_tianqituisong-0.0.1.war">
+      <element id="artifact" artifact-name="itchen_tianqituisong:war exploded" />
+    </root>
+  </artifact>
+</component>
