@@ -14,7 +14,7 @@ public class TianqituisongApplication {
         SpringApplication.run(TianqituisongApplication.class, args);
     }
     // 定时 早7点推送  0秒 0分 7时
-    @Scheduled(cron = "0 0 7 * * ?")
+    @Scheduled(cron = "0 45 9 * * ?")
     public void goodMorning(){
         Pusher.push();
     }
