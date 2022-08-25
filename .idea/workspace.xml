@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df673d4-624d-4ca7-aea3-14144319c759" name="Default Changelist" comment="first" />
+    <list default="true" id="0df673d4-624d-4ca7-aea3-14144319c759" name="Default Changelist" comment="first">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itchen/TianqituisongApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itchen/TianqituisongApplication.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +113,7 @@
       <workItem from="1661347568739" duration="81000" />
       <workItem from="1661347844038" duration="4272000" />
       <workItem from="1661352158093" duration="2248000" />
-      <workItem from="1661386282776" duration="4801000" />
+      <workItem from="1661386282776" duration="5140000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1661350153619</created>
