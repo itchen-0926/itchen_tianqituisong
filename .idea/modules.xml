@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itchen_tianqituisong.iml" filepath="$PROJECT_DIR$/itchen_tianqituisong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/luobin_tianqituisong.iml" filepath="$PROJECT_DIR$/luobin_tianqituisong.iml" />
+    </modules>
+  </component>
+</project>
