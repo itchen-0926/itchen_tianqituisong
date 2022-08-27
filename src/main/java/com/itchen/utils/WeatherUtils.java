@@ -14,7 +14,7 @@ public class WeatherUtils {
     public static Weather getWeather(){
         RestTemplate restTemplate = new RestTemplate();
         Map<String,String> map = new HashMap<>();
-        map.put("district_id","420600"); //所在地行政代码 市 需修改
+        map.put("district_id","420111"); //所在地行政代码 市 需修改
         map.put("data_type","all");
         map.put("ak","wUtt44cbhGZpCV5BaZGNgjtI4XjU4Tfm");    //自己应用的ak 需修改
         String res = restTemplate.getForObject(
