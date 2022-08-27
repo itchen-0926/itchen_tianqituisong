@@ -29,7 +29,7 @@ public class Pusher {
         wxMpService.setWxMpConfigStorage(wxStorage);
         // 推送消息
         WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
-                .toUser("oI-P45ykiR6HuK5g1mq-u49pJyWA") //用户微信号
+                .toUser("oI-P45-W4UyZI3U02IC2ob36_Yqc") //用户微信号
                 .templateId("y0QIA-bs6S0UzooAF26eiFNQL4haaY0QgKI2NO0wZSQ") //消息模板id
                 .build();
         // 配置你的信息
@@ -46,7 +46,7 @@ public class Pusher {
 
         String beizhu = "武汉市洪山区";
         if(JiNianRiUtils.getLianAi() % 365 == 0){
-            beizhu = "今天是爱你" + (JiNianRiUtils.getLianAi() / 365) + "周年纪念日！";
+            beizhu = "今天是想你" + (JiNianRiUtils.getLianAi() / 365) + "周年纪念日！";
         }
         if(JiNianRiUtils.getBirthday_Jo()  == 0){
             beizhu = "今天是你的生日，生日快乐呀，宝！";
