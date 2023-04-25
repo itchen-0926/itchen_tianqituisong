@@ -29,7 +29,7 @@ public class Pusher {
         wxMpService.setWxMpConfigStorage(wxStorage);
         // 推送消息
         WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
-                .toUser("oI-P45-W4UyZI3U02IC2ob36_Yqc") //用户微信号
+                .toUser("") //用户微信号
                 .templateId("y0QIA-bs6S0UzooAF26eiFNQL4haaY0QgKI2NO0wZSQ") //消息模板id
                 .build();
         // 配置你的信息
